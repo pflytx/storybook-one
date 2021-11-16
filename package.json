@@ -8,7 +8,8 @@
     "storybook": "export NODE_OPTIONS=--openssl-legacy-provider && start-storybook -p 6006",
     "build-storybook": "export NODE_OPTIONS=--openssl-legacy-provider && build-storybook",
     "chromatic": "npx chromatic --project-token=e28b9a3d2c6c",
-    "storybook-docs": "export NODE_OPTIONS=--openssl-legacy-provider && start-storybook --docs --no-manager-cache"
+    "storybook-docs": "export NODE_OPTIONS=--openssl-legacy-provider && start-storybook --docs --no-manager-cache",
+    "build-storybook-docs": "export NODE_OPTIONS=--openssl-legacy-provider && build-storybook --docs"
   },
   "keywords": [],
   "author": "",
