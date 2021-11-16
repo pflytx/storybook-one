@@ -1,23 +1,23 @@
 import { LitElement, css, html } from 'lit';
 
 export class FirstComp extends LitElement {
+    static properties = {
+        name: {},
+    };
     constructor() {
         super();
         this.attachShadow({ mode: "open" });
         //declartive props
-        this.name = "Web Component";
+        this.name = "";
 
     }
     render() {
         return html`
-	    <h2>We are going to render: ${this.name} +end</h2>
+	    <h2>We are going to render: ${this.name}, end</h2>
 	    `;
     }
 }
 
-FirstComp.properties = {
-   name:{}
-};
 
 FirstComp.styles = css`
 	* {
