@@ -9,7 +9,8 @@
     "build-storybook": "export NODE_OPTIONS=--openssl-legacy-provider && build-storybook",
     "chromatic": "npx chromatic --project-token=e28b9a3d2c6c",
     "storybook-docs": "export NODE_OPTIONS=--openssl-legacy-provider && start-storybook --docs --no-manager-cache",
-    "build-storybook-docs": "export NODE_OPTIONS=--openssl-legacy-provider && build-storybook --docs"
+    "build-storybook-docs": "export NODE_OPTIONS=--openssl-legacy-provider && build-storybook --docs",
+    "build-docs-netlify": "build-storybook --docs"
   },
   "keywords": [],
   "author": "",
